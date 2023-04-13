@@ -1,0 +1,8 @@
+## Interface: 11200
+## Title: Codex
+## Notes: Displays mob spells on mouseover.
+## Author: Yona
+## Version: 1.0
+
+Codex_Data.lua
+Main.lua
