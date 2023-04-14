@@ -1,6 +1,10 @@
 # Codex
 World of Warcraft (1.12) addon which displays mob spells on mouseover.
 
+## Disclaimer
+The data reflected by this addon is based on brotalnia's database (`world_full_08_february_2019`).
+Depending on the server you are playing, this addon may report incorrect information and custom content will not be supported for this exact reason.
+
 ## Spell information
 - Name (ex: Fireball)
 - Icon
