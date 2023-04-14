@@ -8876,32 +8876,11 @@ Codex_CreatureSpells = {
     },
     ['Scorpid Worker'] = {
         {
-            name = 'Venom Sting',
-            description = 'Inflicts 10 Nature damage to an enemy, then an additional 2 damage every 5 sec. for 45s.',
-            dispel = 4,
-            school = 3,
-            icon = 'Interface\\Icons\\Ability_PoisonSting'
-        },
-        {
-            name = 'Immolate',
-            description = 'Burns the enemy for 8 Fire damage and then an additional 20 Fire damage over 15s.',
-            dispel = 1,
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_Immolation'
-        },
-        {
-            name = 'Curse of Mending',
-            description = 'Curses an enemy for 180s., giving it 20% chance to heal its target by 10 on attack.',
-            dispel = 2,
-            school = 5,
-            icon = 'Interface\\Icons\\Spell_Shadow_AntiShadow'
-        },
-        {
-            name = 'Rushing Charge',
-            description = 'Increases the caster\'s movement speed by 60% for 3s. and causes it to inflict an additional 10 damage on its first attack.',
+            name = 'Weak Poison Proc',
+            description = 'Adds a chance to poison a target on a successful hit.',
             school = 0,
-            icon = 'Interface\\Icons\\Ability_WarStomp'
-        }
+            icon = 'Interface\\Icons\\Spell_Shadow_Requiem'
+        },
     },
     ['Venomtail Scorpid'] = {
         {
