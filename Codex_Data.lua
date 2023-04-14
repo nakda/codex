@@ -653,12 +653,6 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
     },
     ['Riverpaw Bandit'] = {
         {
@@ -1224,12 +1218,6 @@ Codex_CreatureSpells = {
         },
     },
     ['Defias Looter'] = {
-        {
-            name = 'Backstab',
-            description = 'Backstab the target, causing 150% weapon damage plus 15 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.',
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_BackStab'
-        },
         {
             name = 'Backstab',
             description = 'Backstab the target, causing 150% weapon damage plus 15 to the target.  Must be behind the target.  Requires a dagger in the main hand.  Awards 1 combo point.',
@@ -7306,12 +7294,6 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
     },
     ['Captain Keelhaul'] = {
         {
@@ -8152,20 +8134,8 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
     },
     ['Dustbelcher Wyrmhunter'] = {
-        {
-            name = 'Net',
-            description = 'Immobilizes an enemy for 10s.',
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_Ensnare'
-        },
         {
             name = 'Net',
             description = 'Immobilizes an enemy for 10s.',
@@ -8473,18 +8443,6 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 31 Fire damage and an additional 3 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
     },
     ['Gorrik'] = {
         {
@@ -8707,12 +8665,6 @@ Codex_CreatureSpells = {
         {
             name = 'Fireball',
             description = 'Hurls a fiery ball that causes 31 Fire damage and an additional 3 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
@@ -9546,12 +9498,6 @@ Codex_CreatureSpells = {
         {
             name = 'Fireball',
             description = 'Hurls a fiery ball that causes 31 Fire damage and an additional 3 Fire damage over 6s.',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
-        },
-        {
-            name = 'Fireball',
-            description = 'Hurls a fiery ball that causes 53 Fire damage and an additional 6 Fire damage over 6s.',
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_FlameBolt'
         },
@@ -13996,29 +13942,11 @@ Codex_CreatureSpells = {
             school = 3,
             icon = 'Interface\\Icons\\Spell_Nature_Lightning'
         },
-        {
-            name = 'Lightning Breath',
-            description = 'Breathes lightning at an enemy, inflicting Nature damage.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Nature_Lightning'
-        },
     },
     ['Elder Thunder Lizard'] = {
         {
             name = 'Lizard Bolt',
             description = 'Inflicts 8 Nature damage to an enemy.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Nature_Lightning'
-        },
-        {
-            name = 'Lightning Breath',
-            description = 'Breathes lightning at an enemy, inflicting Nature damage.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Nature_Lightning'
-        },
-        {
-            name = 'Lightning Breath',
-            description = 'Breathes lightning at an enemy, inflicting Nature damage.',
             school = 3,
             icon = 'Interface\\Icons\\Spell_Nature_Lightning'
         },
@@ -17366,11 +17294,6 @@ Codex_CreatureSpells = {
         {
             name = 'Radiation Bolt',
             description = 'Inflicts Nature damage to an enemy, and has a chance of irradiating it.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Shadow_CorpseExplode'
-        },
-        {
-            name = 'Radiation',
             school = 3,
             icon = 'Interface\\Icons\\Spell_Shadow_CorpseExplode'
         },
@@ -24338,11 +24261,6 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_Fire'
         },
-        {
-            name = 'Breath',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_Fire'
-        },
     },
     ['General Colbatann'] = {
         {
@@ -24891,12 +24809,6 @@ Codex_CreatureSpells = {
             icon = 'Interface\\Icons\\Ability_GhoulFrenzy'
         },
         {
-            name = 'Ravenous Claw',
-            description = 'Drains 278 health from an enemy, transferring it to the caster.',
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_GhoulFrenzy'
-        },
-        {
             name = 'Head Crack',
             description = 'Reduces an enemy\'s Stamina by -1 for 20s.',
             school = 0,
@@ -24946,12 +24858,6 @@ Codex_CreatureSpells = {
         },
     },
     ['Crypt Beast'] = {
-        {
-            name = 'Encasing Webs',
-            description = 'Immobilizes an enemy and increases the time between its attacks by -100% for 6s.',
-            school = 0,
-            icon = 'Interface\\Icons\\Spell_Nature_EarthBind'
-        },
         {
             name = 'Encasing Webs',
             description = 'Immobilizes an enemy and increases the time between its attacks by -100% for 6s.',
@@ -28651,12 +28557,6 @@ Codex_CreatureSpells = {
             school = 0,
             icon = 'Interface\\Icons\\Ability_Gouge'
         },
-        {
-            name = 'Serrated Bite',
-            description = 'Inflicts 1500 Physical damage to an enemy over 30s.',
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_Gouge'
-        },
     },
     ['Core Rager'] = {
         {
@@ -30419,12 +30319,6 @@ Codex_CreatureSpells = {
             school = 0,
             icon = 'Interface\\Icons\\Ability_BackStab'
         },
-        {
-            name = 'Fatal Bite',
-            description = 'Drains 200 health from an enemy, healing the caster for up to twice that amount.',
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_BackStab'
-        },
     },
     ['Lord Lakmaeran'] = {
         {
@@ -30485,18 +30379,6 @@ Codex_CreatureSpells = {
         },
     },
     ['Somnus'] = {
-        {
-            name = 'Acid Breath',
-            description = 'Inflicts 10 Nature damage and an additional 2 damage every 5 sec. to enemies in a cone in front of the caster. Lasts 45s.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Nature_Acid_01'
-        },
-        {
-            name = 'Acid Breath',
-            description = 'Inflicts 10 Nature damage and an additional 2 damage every 5 sec. to enemies in a cone in front of the caster. Lasts 45s.',
-            school = 3,
-            icon = 'Interface\\Icons\\Spell_Nature_Acid_01'
-        },
         {
             name = 'Acid Breath',
             description = 'Inflicts 10 Nature damage and an additional 2 damage every 5 sec. to enemies in a cone in front of the caster. Lasts 45s.',
@@ -30842,13 +30724,6 @@ Codex_CreatureSpells = {
         {
             name = 'Shadow Word: Pain',
             description = 'A word of darkness that causes 672 Shadow damage over 18s.',
-            dispel = 1,
-            school = 5,
-            icon = 'Interface\\Icons\\Spell_Shadow_ShadowWordPain'
-        },
-        {
-            name = 'Shadow Word: Pain',
-            description = 'A word of darkness that causes 852 Shadow damage over 18s.',
             dispel = 1,
             school = 5,
             icon = 'Interface\\Icons\\Spell_Shadow_ShadowWordPain'
@@ -31930,11 +31805,6 @@ Codex_CreatureSpells = {
             school = 2,
             icon = 'Interface\\Icons\\Spell_Fire_SealOfFire'
         },
-        {
-            name = 'Fire Nova',
-            school = 2,
-            icon = 'Interface\\Icons\\Spell_Fire_SealOfFire'
-        },
     },
     ['Corrupted Stoneskin Totem VI'] = {
         {
@@ -32288,13 +32158,6 @@ Codex_CreatureSpells = {
             description = 'Inflicts normal damage plus 30 to an enemy and knocks it back.',
             school = 0,
             icon = 'Interface\\Icons\\INV_Gauntlets_05'
-        },
-        {
-            name = 'Paralyzing Poison',
-            description = 'Stuns an enemy, rendering it unable to move or attack for 8s.',
-            dispel = 4,
-            school = 0,
-            icon = 'Interface\\Icons\\Ability_PoisonSting'
         },
     },
     ['Twilight Flamereaver'] = {
