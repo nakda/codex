@@ -44,6 +44,7 @@ function Codex_OnTooltipShown()
                 GameTooltip:AddLine(" "); 
                 GameTooltip:AddDoubleLine(Codex_GetSpellName(spellList[i]), " ")
                 Codex_AddSpellIcon(i, GameTooltip:NumLines(), spellList[i])
+                textures[i].border:Show()
                 local schoolColor = schoolColors[spellList[i].school]
                 GameTooltip:AddLine(Codex_GetSpellSchool(spellList[i]), schoolColor.r, schoolColor.g, schoolColor.b, true)     
                 GameTooltip:AddLine(Codex_GetSpellDescription(spellList[i]), 1, 1, 1, true)     
@@ -100,14 +101,22 @@ function Codex_AddSpellIcon(spellIndex, lineIndex, spell)
         texture:SetWidth(21)
         texture:SetHeight(21)
         textures[spellIndex] = texture
+
+        texture.border = CreateFrame("Frame", nil, GameTooltip)
+        texture.border:SetPoint("TOPLEFT", texture, "TOPLEFT", -2, 2)
+        texture.border:SetPoint("BOTTOMRIGHT", texture, "BOTTOMRIGHT", 2, -2)
+        texture.border:SetBackdrop({edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border", edgeSize = 12})
     end
 
     textures[spellIndex]:SetPoint("RIGHT", "GameTooltipTextRight"..lineIndex, "RIGHT", 0, -9)
 
     if spell.icon then
         textures[spellIndex]:SetTexture(spell.icon)
+        local schoolColors = schoolColors[spell.school]
+        textures[spellIndex].border:SetBackdropBorderColor(schoolColors.r, schoolColors.g, schoolColors.b)
     else
         textures[spellIndex]:SetTexture("Interface\\Icons\\Inv_misc_questionmark")
+        textures[spellIndex].border:SetBackdropBorderColor(1, 0, 0)
     end
 end
 
@@ -115,6 +124,7 @@ function Codex_OnTooltipHidden()
     for i = 0, 4 do
         if textures[i] then
             textures[i]:SetTexture(nil)
+            textures[i].border:Hide()
         end
     end
 end
