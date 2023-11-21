@@ -144,7 +144,7 @@ function Codex_OnTooltipShown()
 				
                 -- Use a double line for the spell name and icon
                 GameTooltip:AddLine("        "..Codex_GetSpellName(spellList[i]), 1, 1, 1)
-				SetLastLineSize(14, i)
+		SetLastLineSize(14, i)
 				
                 -- Create a spell icon UI if it doesn't exist
                 if not spellIcons[i] then
@@ -156,8 +156,9 @@ function Codex_OnTooltipShown()
                 -- Set the proper spell icon, school and description
                 Codex_SetSpellIcon(spellIcons[i], spellList[i], schoolColor, i)
                 GameTooltip:AddLine("          "..Codex_GetSpellSchool(spellList[i]), schoolColor.r, schoolColor.g, schoolColor.b, true)
-				SetLastLineSize(11, i)
+		SetLastLineSize(11, i)
                 GameTooltip:AddLine("|cffFFD100"..wrap(Codex_GetSpellDescription(spellList[i]), 40).."|r")
+		SetLastLineSize(12, i)
 				
                 -- Make sure the spell icon is visible
                 Codex_ShowSpellIcon(spellIcons[i])
