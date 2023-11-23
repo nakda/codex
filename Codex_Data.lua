@@ -17361,7 +17361,39 @@ Codex_CreatureSpells = {
             school = 0,
             icon = 'Interface\\Icons\\Ability_Warrior_OffensiveStance'
         },
+        {
+            name = 'Hamstring',
+            description = 'Inflicts weapon damage plus 1 to an enemy, reducing its movement speed by 60% for 10 sec.',
+            school = 0,
+            icon = 'Interface\\Icons\\Ability_Shockwave'
+        },
+        {
+            name = 'Heal',
+            description = 'Heal your target for 429 to 492.',
+            school = 1,
+            icon = 'Interface\\Icons\\Spell_Holy_Heal'
+        },
+        {
+            name = 'Heroic Strike',
+            description = 'A strong attack that increases melee damage by 32 and causes a high amount of threat.',
+            school = 0,
+            icon = 'Interface\\Icons\\Ability_Rogue_Ambush'
+        },
+        {
+            name = 'Shoot',
+            description = 'Shoots at an enemy, inflicting Physical damage.',
+            school = 0,
+            icon = 'Interface\\Icons\\Ability_Marksmanship'
+        },
     },
+    ['Leper Gnome'] = {
+		{
+			name = 'Decayed Strength',
+			description = 'Reduces an enemy\'s Strength by 2 for 5 min.',
+			school = 3,
+			icon = 'Interface\\Icons\\Spell_Holy_HarmunDeadAura'
+		},
+	},
     ['Leprous Technician'] = {
         {
             name = 'Throw Wrench',
